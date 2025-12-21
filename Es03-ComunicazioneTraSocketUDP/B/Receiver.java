@@ -1,11 +1,4 @@
-/**
- * from network/..
- * javac network/Receiver.java; java network.Receiver 
- * javac Receiver.java; java network.Receiver 
- * 
- * @Filippo Bilardo
- * @version 1.00 11/11/2023
- */
+
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
@@ -33,4 +26,5 @@ public class Receiver {
 		//Closing the Datagram socket
 		socket.close();
 	}
+
 }

@@ -1,11 +1,4 @@
-/**
- * from network/..
- * javac network/Sender.java; java network.Sender 
- * javac Sender.java; java network.Sender 
- * 
- * @Filippo Bilardo
- * @version 1.00 11/11/2023
-*/
+
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
@@ -32,5 +25,6 @@ public class Sender {
 		//Close the socket
 		socket.close();
 	}
+
 
 }
